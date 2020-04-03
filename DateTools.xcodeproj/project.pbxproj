@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		90482A932435D92C00703200 /* DateTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 90482A912435D92C00703200 /* DateTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90482AA92435D98400703200 /* DTTimePeriod.m in Sources */ = {isa = PBXBuildFile; fileRef = 90482A992435D98300703200 /* DTTimePeriod.m */; };
 		90482AAA2435D98400703200 /* DTTimePeriod.h in Headers */ = {isa = PBXBuildFile; fileRef = 90482A9A2435D98300703200 /* DTTimePeriod.h */; };
 		90482AAB2435D98400703200 /* DTConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 90482A9B2435D98300703200 /* DTConstants.h */; };
@@ -17,7 +16,7 @@
 		90482AAF2435D98400703200 /* DTTimePeriodChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 90482A9F2435D98300703200 /* DTTimePeriodChain.m */; };
 		90482AB02435D98400703200 /* DTTimePeriodCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 90482AA02435D98300703200 /* DTTimePeriodCollection.h */; };
 		90482AB12435D98400703200 /* DTError.m in Sources */ = {isa = PBXBuildFile; fileRef = 90482AA12435D98300703200 /* DTError.m */; };
-		90482AB22435D98400703200 /* DateTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 90482AA22435D98300703200 /* DateTools.h */; };
+		90482AB22435D98400703200 /* DateTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 90482AA22435D98300703200 /* DateTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90482AB32435D98400703200 /* DTTimePeriodChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 90482AA32435D98400703200 /* DTTimePeriodChain.h */; };
 		90482AB42435D98400703200 /* DTError.h in Headers */ = {isa = PBXBuildFile; fileRef = 90482AA42435D98400703200 /* DTError.h */; };
 		90482AB52435D98400703200 /* DTTimePeriodCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 90482AA52435D98400703200 /* DTTimePeriodCollection.m */; };
@@ -28,7 +27,6 @@
 
 /* Begin PBXFileReference section */
 		90482A8E2435D92C00703200 /* DateTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DateTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		90482A912435D92C00703200 /* DateTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateTools.h; sourceTree = "<group>"; };
 		90482A922435D92C00703200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90482A992435D98300703200 /* DTTimePeriod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTTimePeriod.m; path = DateTools/DTTimePeriod.m; sourceTree = "<group>"; };
 		90482A9A2435D98300703200 /* DTTimePeriod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTTimePeriod.h; path = DateTools/DTTimePeriod.h; sourceTree = "<group>"; };
@@ -78,7 +76,6 @@
 		90482A902435D92C00703200 /* DateTools */ = {
 			isa = PBXGroup;
 			children = (
-				90482A912435D92C00703200 /* DateTools.h */,
 				90482A9D2435D98300703200 /* DateTools.bundle */,
 				90482AA22435D98300703200 /* DateTools.h */,
 				90482A9B2435D98300703200 /* DTConstants.h */,
@@ -107,14 +104,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90482AB22435D98400703200 /* DateTools.h in Headers */,
 				90482AAA2435D98400703200 /* DTTimePeriod.h in Headers */,
 				90482AB42435D98400703200 /* DTError.h in Headers */,
 				90482AAE2435D98400703200 /* NSDate+DateTools.h in Headers */,
 				90482AB02435D98400703200 /* DTTimePeriodCollection.h in Headers */,
 				90482AB62435D98400703200 /* DTTimePeriodGroup.h in Headers */,
 				90482AB32435D98400703200 /* DTTimePeriodChain.h in Headers */,
-				90482A932435D92C00703200 /* DateTools.h in Headers */,
-				90482AB22435D98400703200 /* DateTools.h in Headers */,
 				90482AAB2435D98400703200 /* DTConstants.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
